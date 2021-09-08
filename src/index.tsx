@@ -5,9 +5,6 @@
  * code.
  */
 
-import 'react-app-polyfill/ie11';
-import 'react-app-polyfill/stable';
-
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
@@ -26,6 +23,9 @@ import reportWebVitals from 'reportWebVitals';
 
 // Initialize languages
 import './locales/i18n';
+import './tailwind-output.css';
+import 'styles/animate.css';
+import 'styles/custom.css';
 
 const store = configureAppStore();
 const MOUNT_NODE = document.getElementById('root') as HTMLElement;

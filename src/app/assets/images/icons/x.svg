@@ -1,0 +1,16 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient3143">
+   <stop stop-color="#ffffff" id="stop3145" offset="0"/>
+   <stop stop-color="#00f038" stop-opacity="0" id="stop3147" offset="1"/>
+  </linearGradient>
+  <radialGradient gradientTransform="matrix(0.9969759583473206,0,0,0.9969759583473206,102.38899993896484,10.12279987335205)" r="27.54545" fy="15.16281" fx="15.89146" cy="15.16281" cx="15.89146" gradientUnits="userSpaceOnUse" id="radialGradient2201" xlink:href="#linearGradient3143"/>
+ </defs>
+ <metadata id="metadata2165">image/svg+xml</metadata>
+ <g>
+  <title>Layer 1</title>
+  <path fill="url(#radialGradient2201)" fill-rule="nonzero" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" marker-start="none" marker-mid="none" marker-end="none" stroke-miterlimit="4" stroke-dashoffset="0" id="path3185" d="m93.50353,32.99999a27.50377,27.50377 0 1 1 -55.00756,0a27.50377,27.50377 0 1 1 55.00756,0z"/>
+  <path stroke="#cccccc" fill="#7f7f7f" fill-rule="nonzero" stroke-width="2.50379" stroke-linecap="round" stroke-linejoin="round" marker-start="none" marker-mid="none" marker-end="none" stroke-miterlimit="4" stroke-dashoffset="0" d="m62.58517,31.99999a30.565,30.56499 0 1 1 -61.13001,0a30.565,30.56499 0 1 1 61.13001,0z" id="path3187"/>
+  <path stroke="null" fill="#ffffff" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" marker-start="none" marker-mid="none" marker-end="none" stroke-miterlimit="4" stroke-dashoffset="0" d="m36.8044,15.79539c-2.33698,1.87091 -4.08726,5.27057 -5.88963,7.0494c-3.42042,-2.6261 -4.96359,-7.52236 -8.65166,-8.89656c-4.47209,1.10773 -11.57355,4.98854 -6.33643,9.19814c2.67448,3.67002 8.05146,6.93197 9.30155,10.74373c-1.90717,4.57125 -5.57735,7.97981 -9.13907,11.30919c1.74161,5.64002 10.07954,0.63305 13.44459,-2.11105c2.68377,-5.58981 4.63802,1.08356 7.14797,3.48748c2.00235,7.50651 12.74323,5.31192 13.67575,-0.892c-3.69089,-5.48735 -8.81482,-10.76557 -12.37515,-16.16651c1.41043,-5.61447 7.32223,-9.37353 8.69228,-14.81504c-2.32567,-3.76645 -6.86453,0.42501 -9.8702,1.09322z" id="path3207"/>
+ </g>
+</svg>

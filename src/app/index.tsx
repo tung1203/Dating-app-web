@@ -8,31 +8,32 @@
 
 import * as React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Switch, Route, BrowserRouter } from 'react-router-dom';
-
+// import { Switch, Route } from 'react-router-dom';
+import AppRouter from './Router/index';
 import { GlobalStyle } from 'styles/global-styles';
 
-import { HomePage } from './pages/HomePage/Loadable';
-import { NotFoundPage } from './components/NotFoundPage/Loadable';
+// import { HomePage } from './pages/HomePage/Loadable';
+// import { NotFoundPage } from './components/NotFoundPage/Loadable';
 import { useTranslation } from 'react-i18next';
+import '../styles/tailwind.css';
 
 export function App() {
   const { i18n } = useTranslation();
   return (
-    <BrowserRouter>
+    <>
       <Helmet
-        titleTemplate="%s - React Boilerplate"
-        defaultTitle="React Boilerplate"
+        titleTemplate="Dating App"
+        defaultTitle="Dating App"
         htmlAttributes={{ lang: i18n.language }}
       >
-        <meta name="description" content="A React Boilerplate application" />
+        <meta name="description" content="My dating app" />
       </Helmet>
-
-      <Switch>
+      {/* <Switch>
         <Route exact path="/" component={HomePage} />
         <Route component={NotFoundPage} />
-      </Switch>
+      </Switch> */}
+      <AppRouter />
       <GlobalStyle />
-    </BrowserRouter>
+    </>
   );
 }
